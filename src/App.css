@@ -20,15 +20,13 @@ i{
   margin-right: 15px;
 }
 .first-link {
-  border-left: 3px solid blue !important;  /* Set the left border to blue */
-  color: blue !important; /* Set the text color to blue */
-  /* Add other styles as needed */
+  border-left: 3px solid blue !important; 
+  color: blue !important; 
 }
 .nav-link {
-  padding-left: 25px!important; /* Set left padding */
-  padding-right: 20px; /* Set right padding */
+  padding-left: 25px!important;
+  padding-right: 20px;
   margin-bottom:20px;
-  /* Add other styles as needed */
 }
 .logo{
   margin-top:30px;
@@ -39,15 +37,9 @@ margin-left: 20px;
   display: flex;
   background-color: white;
   border: 1px solid lightgray;
-
-  
- 
 }
 .search1{
- 
-
   padding: 10px 5px 10px 5px;
-
 }
 .tops{
   background: transparent;
@@ -67,11 +59,9 @@ margin-left: 20px;
  
 }
 input:focus {
-  outline: none; /* Remove the default focus outline (optional) */
-  border: none; /* Remove the border */
+  outline: none;
+  border: none; 
 }
-
-
 .square-radio {
   display: inline-block;
   position: relative;
@@ -79,20 +69,14 @@ input:focus {
   height: 20px;
   background-color: #fff;
   border: 2px solid #c6c6c6;
-  border-radius: 3px; /* Set border-radius to 0 for square shape */
+  border-radius: 3px; 
 }
-
-/* Style for the radio input hidden */
 .square-radio input[type="radio"] {
-  display: none; /* Hide the actual radio input */
+  display: none;
 }
-
-/* Style for the radio input when checked */
 .square-radio input[type="radio"]:checked + label {
-  background-color: #bcb9b9; /* Change background color when checked */
+  background-color: #bcb9b9;
 }
-
-/* Style for the radio label (to create the square) */
 .square-radio label {
   display: block;
   width: 100%;
@@ -100,11 +84,9 @@ input:focus {
   background-color: #fff;
   cursor: pointer;
 }
-
-/* Style to remove vertical borders */
 .custom-table th,
 .custom-table td {
-  border-right-style: hidden; /* Remove right border on both header and data cells */
+  border-right-style: hidden;
  line-height: 40px;
 }
 .last{
@@ -121,16 +103,10 @@ h5{
   background-color: white;
   padding: 10px 0px 10px 10px;
 }
-
-/* Style for the bell icon with white background */
 .bell-icon {
-
   padding: 10px;
   border-radius: 50%;
- 
 }
-
-/* Style for the yellow circle */
 .yellow-circle {
   position: absolute;
   top: -5px;

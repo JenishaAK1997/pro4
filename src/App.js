@@ -3,7 +3,7 @@ import { Container, Row, Col, Navbar, Nav, Table ,Form } from 'react-bootstrap';
 import './App.css'
 
 function App() {
-  // Dummy data for the table
+  
   const dummyData = [
     { id: 'AHGA68', date: '2023-09-29', customer: 'John Doe', payable: 100, paid: 50, due: 50 },
     { id:  'AHGA68', date: '2023-09-29', customer: 'John Doe', payable: 100, paid: 50, due: 50 },
@@ -12,10 +12,6 @@ function App() {
     { id:  'AHGA68', date: '2023-09-29', customer: 'John Doe', payable: 100, paid: 50, due: 50 },
     { id:  'AHGA68', date: '2023-09-29', customer: 'John Doe', payable: 100, paid: 50, due: 50 },
     { id:  'AHGA68', date: '2023-09-29', customer: 'John Doe', payable: 100, paid: 50, due: 50 },
-   
-    
-    
-    // Add more dummy data as needed
   ];
 
   return (
